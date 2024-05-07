@@ -7,39 +7,44 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter poem topic"
-          id=""
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem
-        <br />
-        will go
-        <br />
-        here
-      </div>
-    </main>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter poem topic"
+            id=""
+            autofocus
+            required
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem
+          <br />
+          will go
+          <br />
+          here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by Salina ✌️ and is open-sourced on
-      <a href="https://github.com/salinaestrada/poem-generator" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://ai-poem.netlify.app/" target="_blank">Netlify</a>
-    </footer>
-
+      <footer>
+        coded by Salina 😀
+        <br />open-sourced on
+        <a
+          href="https://github.com/salinaestrada/poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+        <br />hosted on
+        <a href="https://ai-poem.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
